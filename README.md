@@ -17,3 +17,8 @@ A simple implementation of the classic Tetris game in C++ for the Windows consol
 - Operating system: Windows.
 - C++ compiler (e.g. MinGW, MSVC).
 - The `windows.h` library (included in the standard Windows libraries).
+
+## Установка и запуск
+1. Склонируйте репозиторий:
+   ```bash
+   git clone https://github.com/PaulVonDaniels/Tetris.git
