@@ -1,24 +1,41 @@
-# Console Tetris
+# 🎮 Console Tetris
 
-A simple implementation of the classic Tetris game in C++ for the Windows console. Uses the `windows.h` library to display the game board. Includes seven standard Tetris shapes (O, I, L, J, T, Z, S), each displayed in a unique color. The player controls the falling shapes using the keyboard, and the game ends after a specified number of shapes are placed.
+![Tetris](https://img.shields.io/badge/Game-Tetris-blueviolet)
+![Windows](https://img.shields.io/badge/Platform-Windows-0078d7)
+![C++](https://img.shields.io/badge/Language-C++-00599c)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-## Features
-- Seven classic Tetris shapes with unique colors.
-- Simple keyboard controls.
-- A lightweight and nostalgic console game.
+Простая и элегантная реализация классической игры Tetris на C++ для Windows консоли. Наслаждайтесь ностальгической атмосферой тетриса с цветными фигурами и плавным геймплеем.
 
-## Controls
-- `a`/`A` or `f`/`F`: Move the character left.
-- `d`/`D` or `b`/`B`: Move the character right.
-- `s`/`S` or `y`/`Y`: Accelerate the character's fall.
-- `f`/`F`: Instantaneously drop the character to the bottom.
+![Gameplay](https://via.placeholder.com/600x300?text=Tetris+Gameplay+Screenshot)
 
-## Requirements
-- Operating system: Windows.
-- C++ compiler (e.g. MinGW, MSVC).
-- The `windows.h` library (included in the standard Windows libraries).
+## ✨ Особенности
 
-## Установка и запуск
-1. Склонируйте репозиторий:
+- 🎨 **7 классических фигур** тетриса с уникальными цветами
+- ⌨️ **Интуитивное управление** с поддержкой альтернативных клавиш
+- ⚡ **Быстрое падение** и моментальное размещение
+- 🖥️ **Оптимизированная отрисовка** через Windows API
+- 🎯 **Простой и понятный** геймплей
+
+## 🕹️ Управление
+
+| Действие | Основные клавиши | Альтернативные клавиши |
+|----------|------------------|------------------------|
+| ← Движение влево | `A` | `F` |
+| → Движение вправо | `D` | `B` |
+| ⬇ Ускорение падения | `S` | `Y` |
+| 🚀 Мгновенное падение | `F` | - |
+
+## 🚀 Установка и запуск
+
+### Требования
+- **ОС:** Windows 7/8/10/11
+- **Компилятор:** MinGW, MSVC или другой C++ компилятор
+- **Библиотеки:** Стандартные Windows библиотеки (`windows.h`)
+
+### Быстрый старт
+
+1. **Клонирование репозитория**
    ```bash
    git clone https://github.com/PaulVonDaniels/Tetris.git
+   cd Tetris
