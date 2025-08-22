@@ -38,4 +38,4 @@
 1. **Клонирование репозитория**
    ```bash
    git clone https://github.com/PaulVonDaniels/Tetris.git
-   cd Tetris
+   cd Tetri
